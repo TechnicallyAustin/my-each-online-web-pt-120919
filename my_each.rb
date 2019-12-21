@@ -8,12 +8,3 @@ def my_each(array)
  p array
 end
  
- #my_each(array) {p "#{i} plus some words"}
-=======
- while my_each(array) > counter {|i| puts i }
- yield
- counter += 1
- end
-end
- 
- 
