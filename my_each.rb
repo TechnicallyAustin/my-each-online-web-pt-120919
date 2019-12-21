@@ -1,5 +1,6 @@
 def my_each(array)
  counter = 0 
+<<<<<<< HEAD
  while array.count > counter do
    i = array[counter]
    yield i
@@ -9,3 +10,12 @@ def my_each(array)
 end
  
  #my_each(array) {p "#{i} plus some words"}
+=======
+ while my_each(array) > counter {|i| puts i }
+ yield
+ counter += 1
+ end
+end
+ 
+ 
+>>>>>>> ec947dfd7473ac33a56536dfddb00e7b3bf7aeb6
