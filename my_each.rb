@@ -1,6 +1,5 @@
 def my_each(array)
  counter = 0 
-<<<<<<< HEAD
  while array.count > counter do
    i = array[counter]
    yield i
@@ -18,4 +17,3 @@ end
 end
  
  
->>>>>>> ec947dfd7473ac33a56536dfddb00e7b3bf7aeb6
